@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title">Metric/Imperial Unit Conversion</h1>
+                <input class="input_numb" type="number" id="number-el" value="1" min="0" required>
+                <button class="convert_btn" id="convert-btn">Convert</button>
+        </div>
+        <div class="footer">
+            <div class="unit">
+                <h2 class="unit_text">Length (Meter/Feet)</h2>
+                <p class="result" id="length-txt"></p>
+            </div>
+            <div class="unit">
+                <h2 class="unit_text">Volume (Liters/Gallons)</h2>
+                <p class="result" id="volume-txt"></p>
+            </div>
+            <div class="unit">
+                <h2 class="unit_text">Mass (Kilograms/Pounds)</h2>
+                <p class="result" id="mass-txt"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
